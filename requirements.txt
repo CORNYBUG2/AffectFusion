@@ -1,0 +1,9 @@
+flask
+tensorflow
+numpy
+pillow
+librosa
+soundfile
+scikit-learn
+opencv-python-headless
+gunicorn

@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AV Emotion Detection</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="left">
+      <video id="video" autoplay playsinline></video>
+      <canvas id="canvas" width="320" height="240" style="display:none;"></canvas>
+      <div>Video ready</div>
+    </div>
+    <div id="right">
+      <canvas id="waveform" width="320" height="100"></canvas>
+      <div>Audio ready</div>
+      <div id="result">Waiting...</div>
+    </div>
+  </div>
+  <script src="/static/js/main.js"></script>
+</body>
+</html>
